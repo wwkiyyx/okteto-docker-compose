@@ -1,6 +1,6 @@
 services:
   baota:
-    image: wwkiyyx/okteto:baota
+    image: wwkiyyx/okteto:baota1
     ports:
       - 8888:8888
       - 80:80
