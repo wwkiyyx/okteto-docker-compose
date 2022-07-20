@@ -1,14 +1,5 @@
 services:
-  ttyd:
-    image: wwkiyyx/ttyd:ubuntu1
+  desktop:
+    image: dorowu/ubuntu-desktop-lxde-vnc
     ports:
-      - 7681:7681
-  baota:
-    build: ./baota
-    ports:
-      - 80:80
-      - 8888:8888
-  vscode:
-    build: ./vscode
-    ports:
-      - 8080:8080
+      - 8080:80
