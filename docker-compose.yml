@@ -4,6 +4,6 @@ services:
     ports:
       - 8080:80
   webim:
-    image: node:16.16
+    build: ./webim
     ports:
       - 3001:3001
