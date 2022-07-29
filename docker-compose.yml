@@ -3,3 +3,7 @@ services:
     image: dorowu/ubuntu-desktop-lxde-vnc
     ports:
       - 8080:80
+  webim:
+    image: node:16.16
+    ports:
+      - 3001:3001
